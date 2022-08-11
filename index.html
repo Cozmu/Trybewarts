@@ -38,18 +38,28 @@
                 <section class="family-content-container">
                     <div class="family-container">
                         <label for="" id="label-family">Qual sua família?</label>
-                        <input type="radio" name="family" value="Frontend" id="">
-                        <input type="radio" name="family" value="Backend" id="">
-                        <input type="radio" name="family" value="FullStack" id="">
+                        <label for=""><input type="radio" name="family" value="Frontend" id="">Frontend</label>
+                        <label for=""><input type="radio" name="family" value="Backend" id="">Backend</label>
+                        <label for=""><input type="radio" name="family" value="FullStack" id="">Fullstack</label>
                     </div>
                     <div class="content-container">
                         <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
-                        <input type="checkbox" class="subject" value="HoFs">
-                        <input type="checkbox" class="subject" value="Jest">
-                        <input type="checkbox" class="subject" value="Promises">
-                        <input type="checkbox" class="subject" value="React">
-                        <input type="checkbox" class="subject" value="SQL">
-                        <input type="checkbox" class="subject" value="Python">
+                        <div>
+                            <input type="checkbox" class="subject" value="HoFs">
+                            <label for="">HoFs</label>
+                            <input type="checkbox" class="subject" value="Jest">
+                            <label for="">Jest</label>
+                            <input type="checkbox" class="subject" value="Promises">
+                            <label for="">Promises</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" class="subject" value="React">
+                            <label for="">React</label>
+                            <input type="checkbox" class="subject" value="SQL">
+                            <label for="">SQL</label>
+                            <input type="checkbox" class="subject" value="Python">
+                            <label for="">Python</label>
+                        </div>
                     </div>
                 </section>
                 <section class="rate-container">
@@ -73,7 +83,7 @@
                     <label for="" id="label-infos">Você concorda com o uso das informações acima?</label>
                     <input type="checkbox" name="" id="agreement" required>
                 </section>
-                <button type="submit" id="submit-btn">Enviar</button>
+                <button type="submit" id="submit-btn" disabled>Enviar</button>
             </form>
             <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo">
         </main>

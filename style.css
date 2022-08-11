@@ -54,6 +54,7 @@
     display: flex;
     border: 1px solid black;
     margin: 10px 0px;
+    justify-content: space-between;
 }
 
 /*lOGO-MAIN---------------------------------------------------*/
@@ -63,4 +64,9 @@
 /*RODAPE------------------------------------------------------*/
 .rodape {
     background-color: #dad7cd;
+}
+
+.family-container{
+    display: flex;
+    flex-direction: column;
 }
