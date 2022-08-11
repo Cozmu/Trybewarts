@@ -61,12 +61,24 @@
 #trybewarts-forms-logo {
     height: 500px;
 }
+
+.text-area-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#text-area {
+    width: 100%;
+    resize:none;
+}
+
 /*RODAPE------------------------------------------------------*/
 .rodape {
     background-color: #dad7cd;
 }
 
-.family-container{
+.family-container {
     display: flex;
     flex-direction: column;
 }
