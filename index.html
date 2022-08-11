@@ -21,6 +21,7 @@
     </header>
     <div class="div-container">
         <main class="main-container">
+            <form action="" id="formulario-preenchido"></form>
             <form action="" id="evaluation-form">
                 <section class="nome-container">
                     <input type="text" id="input-name" placeholder="Nome">
@@ -38,9 +39,12 @@
                 <section class="family-content-container">
                     <div class="family-container">
                         <label for="" id="label-family">Qual sua família?</label>
-                        <label for=""><input type="radio" name="family" value="Frontend" id="">Frontend</label>
-                        <label for=""><input type="radio" name="family" value="Backend" id="">Backend</label>
-                        <label for=""><input type="radio" name="family" value="FullStack" id="">Fullstack</label>
+                        <label for=""><input type="radio" name="family" value="Frontend"
+                                class="class-family">Frontend</label>
+                        <label for=""><input type="radio" name="family" value="Backend"
+                                class="class-family">Backend</label>
+                        <label for=""><input type="radio" name="family" value="FullStack"
+                                class="class-family">Fullstack</label>
                     </div>
                     <div class="content-container">
                         <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
@@ -64,21 +68,21 @@
                 </section>
                 <section class="rate-container">
                     <label for="" id="label-rate">Como você avalia a Trybewarts?</label>
-                    <input type="radio" name="rate" value="1">1
-                    <input type="radio" name="rate" value="2">2
-                    <input type="radio" name="rate" value="3">3
-                    <input type="radio" name="rate" value="4">4
-                    <input type="radio" name="rate" value="5">5
-                    <input type="radio" name="rate" value="6">6
-                    <input type="radio" name="rate" value="7">7
-                    <input type="radio" name="rate" value="8">8
-                    <input type="radio" name="rate" value="9">9
-                    <input type="radio" name="rate" value="10">10
+                    <input type="radio" name="rate" value="1" class="class-avaliacao">1
+                    <input type="radio" name="rate" value="2" class="class-avaliacao">2
+                    <input type="radio" name="rate" value="3" class="class-avaliacao">3
+                    <input type="radio" name="rate" value="4" class="class-avaliacao">4
+                    <input type="radio" name="rate" value="5" class="class-avaliacao">5
+                    <input type="radio" name="rate" value="6" class="class-avaliacao">6
+                    <input type="radio" name="rate" value="7" class="class-avaliacao">7
+                    <input type="radio" name="rate" value="8" class="class-avaliacao">8
+                    <input type="radio" name="rate" value="9" class="class-avaliacao">9
+                    <input type="radio" name="rate" value="10" class="class-avaliacao">10
                 </section>
                 <section class="text-area-container">
                     <label for="" class="textarea">Deixe seu comentário:</label>
-                    <p>Caracteres:<span id="counter">500</span></p>
                     <textarea name="" id="textarea" cols="30" rows="10" maxlength="500"></textarea>
+                    <p>Caracteres:<span id="counter">500</span></p>
                 </section>
                 <section class="infos-container">
                     <label for="" id="label-infos">Você concorda com o uso das informações acima?</label>
@@ -89,6 +93,7 @@
             <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo">
         </main>
     </div>
+    <div id="teste"></div>
     <footer class="rodape">
         <p>Direitos reservados à Trybewarts©</p>
     </footer>
