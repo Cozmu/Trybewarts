@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+/*     box-sizing: border-box;
+ */}
+
+/*CABEÇALHO----------------------------------------------*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(50, 167, 145)
+}
+
+.trybewarts-login {
+    display: flex;
+}
+
+/*FORMULARIO-MAIN----------------------------------------------*/
+.div-container {
+    display: flex;
+    justify-content: center;
+}
+
+.main-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+#evaluation-form {
+    display: flex;
+    width: 675px;
+    flex-direction: column;
+
+}
+
+#evaluation-form input {
+    width: 50%;
+}
+
+/*lOGO-MAIN---------------------------------------------------*/
+#trybewarts-forms-logo {
+    height: 500px;
+}
