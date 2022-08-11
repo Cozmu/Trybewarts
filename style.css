@@ -33,19 +33,27 @@
     flex-direction: column;
 }
 
-.nome-container { /*temporario*/
+.nome-container {
+    /*temporario*/
     display: flex;
     border: 1px solid black;
     padding: 3px;
     background-color: #dad7cd;
 }
 
-.options-container { /*temporario*/
+.options-container {
+    /*temporario*/
     display: flex;
     border: 1px solid black;
     padding: 3px;
     margin-top: 5px;
     background-color: #dad7cd;
+}
+
+.family-content-container {
+    display: flex;
+    border: 1px solid black;
+    margin: 10px 0px;
 }
 
 /*lOGO-MAIN---------------------------------------------------*/

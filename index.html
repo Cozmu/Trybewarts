@@ -35,20 +35,43 @@
                         <option value="Pytherina" id="pytherina-house">Pytherina</option>
                     </select>
                 </section>
-                <section class="family-container">
-                    <label for="" id="label-family">Qual sua família?</label>
-                    <input type="radio" name="family" value="Frontend" id="">
-                    <input type="radio" name="family" value="Backend" id="">
-                    <input type="radio" name="family" value="FullStack" id="">
+                <section class="family-content-container">
+                    <div class="family-container">
+                        <label for="" id="label-family">Qual sua família?</label>
+                        <input type="radio" name="family" value="Frontend" id="">
+                        <input type="radio" name="family" value="Backend" id="">
+                        <input type="radio" name="family" value="FullStack" id="">
+                    </div>
+                    <div class="content-container">
+                        <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+                        <input type="checkbox" class="subject" value="HoFs">
+                        <input type="checkbox" class="subject" value="Jest">
+                        <input type="checkbox" class="subject" value="Promises">
+                        <input type="checkbox" class="subject" value="React">
+                        <input type="checkbox" class="subject" value="SQL">
+                        <input type="checkbox" class="subject" value="Python">
+                    </div>
                 </section>
-                <section class="content-container">
-                    <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
-                    <input type="checkbox" class="subject" value="HoFs">
-                    <input type="checkbox" class="subject" value="Jest">
-                    <input type="checkbox" class="subject" value="Promises">
-                    <input type="checkbox" class="subject" value="React">
-                    <input type="checkbox" class="subject" value="SQL">
-                    <input type="checkbox" class="subject" value="Python">
+                <section class="rate-container">
+                    <label for="" id="label-rate">Como você avalia a Trybewarts?</label>
+                    <input type="radio" name="rate" value="1">1
+                    <input type="radio" name="rate" value="2">2
+                    <input type="radio" name="rate" value="3">3
+                    <input type="radio" name="rate" value="4">4
+                    <input type="radio" name="rate" value="5">5
+                    <input type="radio" name="rate" value="6">6
+                    <input type="radio" name="rate" value="7">7
+                    <input type="radio" name="rate" value="8">8
+                    <input type="radio" name="rate" value="9">9
+                    <input type="radio" name="rate" value="10">10
+                </section>
+                <section class="textarea-container">
+                    <label for="" class="textarea">Deixe seu comentário:</label>
+                    <textarea name="" id="" cols="30" rows="10" maxlength="500"></textarea>
+                </section>
+                <section class="infos-container">
+                    <label for="" id="label-infos">Você concorda com o uso das informações acima?</label>
+                    <input type="checkbox" name="" id="agreement">
                 </section>
             </form>
             <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo">
