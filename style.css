@@ -33,7 +33,6 @@
   display: flex;
   border: 1px solid black;
   padding: 3px;
-  background-color:#dad7cd;
 }
 
 .options-container {
@@ -41,7 +40,6 @@
   border: 1px solid black;
   padding: 3px;
   margin-top: 5px;
-  background-color: #dad7cd;
 }
 
 .family-content-container {
@@ -60,14 +58,9 @@
   flex-direction: column;
 }
 
-
 #text-area {
   width: 100%;
   resize: none;
-}
-
-.rodape {
-  background-color: #dad7cd;
 }
 
 .family-container {

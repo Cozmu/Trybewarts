@@ -14,19 +14,20 @@ botaoLoguin.addEventListener('click', validacao);
 
 // Codigo reutilizado desse site https://cursos.alura.com.br/forum/topico-habitar-desabilitar-botao-65202
 // Função que habilita o botão Enviar.
-document.getElementById('submit-btn').disabled = true;
-
+const submitBtn = document.getElementById('submit-btn');
+submitBtn.disabled = true;
 document.getElementById('agreement').addEventListener('input', () => {
   const conteudo = document.getElementById('agreement').value;
 
   if (conteudo !== null && conteudo !== '') {
-    document.getElementById('submit-btn').disabled = false;
+    submitBtn.disabled = false;
   } else {
-    document.getElementById('submit-btn').disabled = true;
+    submitBtn.disabled = true;
   }
 });
 
 // Função que conta as caracteres do campo de texto
+// eslint-disable-next-line func-names
 document.getElementById('textarea').addEventListener('input', function () {
   const caracteres = this.value.length;
   const contador = document.getElementById('counter');
