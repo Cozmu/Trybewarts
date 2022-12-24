@@ -1,69 +1,20 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: 'Harry Potter', sans-serif;
+  letter-spacing: 4px;
 }
 
 .header {
+  background-color: blueviolet;
+  color: white;
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  background-color: rgb(50, 167, 145);
+  padding: 15px;
 }
 
-.trybewarts-login {
-  display: flex;
-}
-
-.div-container {
-  display: flex;
-  justify-content: center;
-}
-
-.main-container {
-  display: flex;
-  margin-top: 20px;
-}
-
-#evaluation-form {
-  display: flex;
-  width: 675px;
-  flex-direction: column;
-}
-
-.nome-container {
-  display: flex;
-  border: 1px solid black;
-  padding: 3px;
-}
-
-.options-container {
-  display: flex;
-  border: 1px solid black;
-  padding: 3px;
-  margin-top: 5px;
-}
-
-.family-content-container {
-  display: flex;
-  border: 1px solid black;
-  margin: 10px 0;
-  justify-content: space-between;
-}
-
-#trybewarts-forms-logo {
-  height: 500px;
-}
-
-.text-area-container {
-  display: flex;
-  flex-direction: column;
-}
-
-#text-area {
-  width: 100%;
-  resize: none;
-}
-
-.family-container {
-  display: flex;
-  flex-direction: column;
+.header img {
+  width: 40px;
 }
