@@ -208,13 +208,6 @@ body {
   cursor: pointer;
 }
 
-.rodape {
-  width: 100%;
-  padding: 10px;
-  background-color: rgb(61, 47, 34);
-  color: white;
-}
-
 #form-data {
   display: none;
   width: 80%;
@@ -243,6 +236,7 @@ body {
   .content-container input {
     margin-right: 1px;
   }
+
   
 }
 
@@ -298,10 +292,14 @@ body {
   .content-container input {
     margin-right: 5px;
   }
+
+
 }
 
 
 @media only screen and ( min-width : 320px ) and ( max-device-width : 425px ) {
+ 
+
   .main-container {
     width: 100%;
   }
