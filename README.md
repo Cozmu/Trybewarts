@@ -2,9 +2,16 @@
 
 #### Esse projeto tem como objetivo colocar meus aprendizados sobre Formulários, Flexbox e CSS responsivo em prática. Ele se trata de um formulário simples baseado nos filmes do Harry Potter onde o usuário preenche o questionamento e ao apertar no botão "Enviar" e exibido suas informações na tela.
 
+
 <div style="margin-top:15px">
   <img alt="exibição do projeto" src="cap.png">
 </div>
+
+
+## Projeto feito com:
+
+### <a href="https://github.com/brunosbrito" ><b>Bruno Brito</b></a>
+<a href="https://github.com/brunosbrito" ></a>
 
 ## Tecnologias:
 
