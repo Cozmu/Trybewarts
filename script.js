@@ -81,9 +81,13 @@ const materias = document.createElement('p');
 const avaliacao = document.createElement('p');
 const obs = document.createElement('p');
 
+const img = document.getElementById('trybewarts-forms-logo');
+
 function lista(e) {
   e.preventDefault();
+  divPai.style.display = 'block';
   form.style.display = 'none';
+  img.style.display = 'none';
   nomeCompleto.innerText = `Nome: ${nome.value} ${sobrenome.value}`;
   email.innerText = `Email: ${getEmail.value}`;
   houseOptions.innerText = `Casa: ${getHouse()}`;
