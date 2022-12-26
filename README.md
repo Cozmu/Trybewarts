@@ -7,12 +7,6 @@
   <img alt="exibição do projeto" src="cap.png">
 </div>
 
-
-## Projeto feito com:
-
-### <a href="https://github.com/brunosbrito" ><b>Bruno Brito</b></a>
-<a href="https://github.com/brunosbrito" ></a>
-
 ## Tecnologias:
 
 <ul>
@@ -47,7 +41,10 @@
  
  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-##  Autor:
+##  Autores:
 
 ### <a href="https://www.linkedin.com/in/jorge-reis-dev/" ><b>Jorge Wellington</b></a>
 <a href="https://www.linkedin.com/in/jorge-reis-dev/" ></a>
+
+### <a href="https://github.com/brunosbrito" ><b>Bruno Brito</b></a>
+<a href="https://github.com/brunosbrito" ></a>
